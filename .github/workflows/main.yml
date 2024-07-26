@@ -1,7 +1,7 @@
 name: "[Test] scheduled cron"
 on:
   schedule:
-    - cron: 37 9 * * *
+    - cron: 50 9 * * *
 
 jobs:
   create_issue:
@@ -35,7 +35,6 @@ jobs:
           GH_REPO: ${{ github.repository }}
           TITLE: Test issue
           ASSIGNEES: lgatibel 
-          LABELS: assitance, Top Prio, 1
           BODY: |
             # Tâche récurrente.
 
