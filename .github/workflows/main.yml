@@ -38,4 +38,4 @@ jobs:
 
             Test body
           PINNED: true
-          CLOSE_PREVIOUS: false
+          CLOSE_PREVIOUS: true
